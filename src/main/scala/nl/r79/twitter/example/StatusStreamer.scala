@@ -13,11 +13,11 @@ case object StopMessage
 trait TwitterInstance {
   val twitter = new TwitterFactory().getInstance
   // Authorising with your Twitter Application credentials
-  twitter.setOAuthConsumer("OB1Amia7UHTGdW6VeGCVtg",
-    "5ed9NUSRst2Ddt5fD9b5musvCqmh6kzCqn1PExgMMY")
+  twitter.setOAuthConsumer("xxx",
+    "xxx")
   twitter.setOAuthAccessToken(new AccessToken(
-    "18424683-24w8rg1f9F44nfsfDKkaInXgJQKis8cQNq5nGM7bY",
-    "scS4hnGkbVhuqukhMBIalAWEtET737ysvGEvooDE"))
+    "xxx",
+    "xxx"))
 }
 
 
